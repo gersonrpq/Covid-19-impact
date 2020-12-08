@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import os
 
 plt.style.use("seaborn-darkgrid")
-FONT_SIZE = 22
+FONT_SIZE = 18
 plt.rcParams.update({'font.size': FONT_SIZE})
 # Caso de estudio y pais de estudio 
 COUNTRY_OF_STUDY = os.environ.get("COUNTRY_OF_STUDY","Colombia")
@@ -76,8 +76,8 @@ with open("text.txt","w") as outfile:
 model_prediction_day = "2021-01-01"
 model_samples = model.get_behavior_until_a_date(model_prediction_day)
 fig, ax = plt.subplots()
-fig.set_figheight(10)
-fig.set_figwidth(15)
+fig.set_figheight(8)
+fig.set_figwidth(12)
 ax.plot(samples["date"], 
         samples["cumulative_confirmed"],
         c = "salmon", label =  f"{CASE_OF_STUDY} cases", marker = '.')

@@ -28,7 +28,7 @@ jobs:
           echo "### Covid-19 interest over time and Covid-19 interest vs Online courses interest" >> report.md     
           cml-publish impact.png --md >> report.md
           
-          echo "## Covid-19 status over time model" >> report.md
+          echo "### Covid-19 status over time model" >> report.md
           cat text.txt >> report.md
           cml-publish prediction.png --md >> report.md
           

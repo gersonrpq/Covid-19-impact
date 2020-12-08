@@ -5,7 +5,7 @@ import seaborn as sns
 import os
 
 plt.style.use("seaborn-darkgrid")
-FONT_SIZE = 22
+FONT_SIZE = 18
 plt.rcParams.update({'font.size': FONT_SIZE})
 LOCATION_OF_STUDY = "CO"
 DATE_FORMAT = "%Y-%m-%d"
@@ -35,8 +35,8 @@ covid_19_interest_2020 = covid_19_interest_2020[covid_19_interest_2020.index != 
 secondary_interest_2020 = secondary_interest_2020[secondary_interest_2020.index != "2020-08-02"]
 
 fig, (ax1, ax2) = plt.subplots(1,2)
-fig.set_figheight(10)
-fig.set_figwidth(15)
+fig.set_figheight(8)
+fig.set_figwidth(12)
 ax1.plot(covid_19_interest_2020.index, covid_19_interest_2020[MAIN_KEYWORD])
 ax1.set_xlabel("date", fontsize = FONT_SIZE)
 ax1.set_ylabel("keyword: '" + MAIN_KEYWORD + "' interest", fontsize = FONT_SIZE)
