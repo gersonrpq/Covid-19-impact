@@ -61,7 +61,7 @@ with open("text.txt","w") as outfile:
     outfile.write(f"Model predicted last day: {predicted_last_day_of_case} \n")
     outfile.write(f"Model predicted amount of afected at last day: {amount_of_case_at_last_day} \n")
     outfile.write("\n")
-    outfile.write("Model params and erros:")
+    outfile.write("Model params and erros: \n")
     a = int(model.logistic_params_case["a"])
     a_error = round(model.logistic_params_error_case["a_error"],4)
     b = int(model.logistic_params_case["b"])
