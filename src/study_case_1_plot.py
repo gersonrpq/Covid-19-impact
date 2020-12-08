@@ -5,7 +5,7 @@ import seaborn as sns
 import os
 
 plt.style.use("seaborn-darkgrid")
-FONT_SIZE = 18
+FONT_SIZE = 15
 plt.rcParams.update({'font.size': FONT_SIZE})
 LOCATION_OF_STUDY = "CO"
 DATE_FORMAT = "%Y-%m-%d"

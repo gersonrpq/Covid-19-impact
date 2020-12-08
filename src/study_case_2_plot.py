@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import os
 
 plt.style.use("seaborn-darkgrid")
-FONT_SIZE = 18
+FONT_SIZE = 15
 plt.rcParams.update({'font.size': FONT_SIZE})
 # Caso de estudio y pais de estudio 
 COUNTRY_OF_STUDY = os.environ.get("COUNTRY_OF_STUDY","Colombia")
