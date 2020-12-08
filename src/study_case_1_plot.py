@@ -35,8 +35,8 @@ covid_19_interest_2020 = covid_19_interest_2020[covid_19_interest_2020.index != 
 secondary_interest_2020 = secondary_interest_2020[secondary_interest_2020.index != "2020-08-02"]
 
 fig, (ax1, ax2) = plt.subplots(1,2)
-fig.set_figheight(16)
-fig.set_figwidth(21)
+fig.set_figheight(10)
+fig.set_figwidth(15)
 ax1.plot(covid_19_interest_2020.index, covid_19_interest_2020[MAIN_KEYWORD])
 ax1.set_xlabel("date", fontsize = FONT_SIZE)
 ax1.set_ylabel("keyword: '" + MAIN_KEYWORD + "' interest", fontsize = FONT_SIZE)

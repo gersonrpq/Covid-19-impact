@@ -76,8 +76,8 @@ with open("text.txt","w") as outfile:
 model_prediction_day = "2021-01-01"
 model_samples = model.get_behavior_until_a_date(model_prediction_day)
 fig, ax = plt.subplots()
-fig.set_figheight(13)
-fig.set_figwidth(17)
+fig.set_figheight(10)
+fig.set_figwidth(15)
 ax.plot(samples["date"], 
         samples["cumulative_confirmed"],
         c = "salmon", label =  f"{CASE_OF_STUDY} cases", marker = '.')
