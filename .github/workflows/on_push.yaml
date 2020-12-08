@@ -11,16 +11,16 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install -r src/actions_requirements.txt
-          export TYPE={{ secrets.TYPE }}
-          export PROJECT_ID={{ secrets.PROJECT_ID }}
-          export PRIVATE_KEY_ID={{ secrets.PRIVATE_KEY_ID }}
-          export PRIVATE_KEY={{ secrets.PRIVATE_KEY }}
-          export CLIENT_EMAIL={{ secrets.CLIENT_EMAIL }}
-          export CLIENT_ID={{ secrets.CLIENT_ID }}
-          export AUTH_URI={{ secrets.AUTH_URI}}
-          export TOKEN_URI={{ secrets.TOKEN_URI }}
-          export AUTH_PROVIDER_X509_CERT_URL={{ secrets.AUTH_PROVIDER_X509_CERT_URL}}
-          export CLIENT_x509_CERT_URL={{ secrets.CLIENT_x509_CERT_URL}}
+          export TYPE=${{ secrets.TYPE }}
+          export PROJECT_ID=${{ secrets.PROJECT_ID }}
+          export PRIVATE_KEY_ID=${{ secrets.PRIVATE_KEY_ID }}
+          export PRIVATE_KEY=${{ secrets.PRIVATE_KEY }}
+          export CLIENT_EMAIL=${{ secrets.CLIENT_EMAIL }}
+          export CLIENT_ID=${{ secrets.CLIENT_ID }}
+          export AUTH_URI=${{ secrets.AUTH_URI}}
+          export TOKEN_URI=${{ secrets.TOKEN_URI }}
+          export AUTH_PROVIDER_X509_CERT_URL=${{ secrets.AUTH_PROVIDER_X509_CERT_URL}}
+          export CLIENT_x509_CERT_URL=${{ secrets.CLIENT_x509_CERT_URL}}
           python src/study_case_1_plot.py
           python src/study_case_2_plot.py
           
