@@ -3,11 +3,11 @@
 This repository is intended to be descriptive for the analysis of two related subjects about covid-19.
 
 These subjects are the followings:
-* Study case 1:
+* [Study case 1](https://github.com/gersonrpq/Covid-19-impact/blob/main/notebooks/study_case_1.ipynb):
 
 Wich refers to the study of the behavior of the covid-19 interest over time and how the people interest in online courses, and even learning attitudes vary with respect of covid-19 interest.
 
-* Study case 2:
+* [Study case 2](https://github.com/gersonrpq/Covid-19-impact/blob/main/notebooks/study_case_2.ipynb):
 
 To study some of the epidemiological data of the covid-19, Colombia was chosen as country of study. To carry out this, a model of the cases was made to see the impact of obligated quarantine (decreed on 2020-03-24) and selective isolation (started at 2020-09-01). Also how this has affected the deparments of this country.
 In the end a shallow analysis is done to see the impact of some other variables with respect to the epidmilogical variables.
@@ -22,21 +22,21 @@ This repository is separated in three parts as following:
 
 Every folder has its own README to get some sense of them, for now they will be described shortly.
 
-### **_/notebooks_**
+### [**_/notebooks_**](https://github.com/gersonrpq/Covid-19-impact/tree/main/notebooks)
 
 This folder has the jupyter notebooks where the analysis of the study cases where made.
 
-### **_/src_**
+### [**_/src_**](https://github.com/gersonrpq/Covid-19-impact/tree/main/src)
 
 This folder is intended to be use when the repository receives a push, so that github actions can plot the status and the performance of the model built in previous described folder. By default it takes Colombia data.
 
-### **_/API_**
+### [**_/API_**](https://github.com/gersonrpq/Covid-19-impact/tree/main/API)
 
 Source code of the API service that has the model built in notebooks analysis on a production environment, so that it can be used as a service by anyone.
 
 ## Licensing
 
-This repository is under a MIT License.
+This repository is under a [MIT License](https://github.com/gersonrpq/Covid-19-impact/blob/main/LICENSE).
 
 ## Data
 
