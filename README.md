@@ -5,12 +5,12 @@ This repository is intended to be descriptive for the analysis of two related su
 These subjects are the followings:
 * Study case 1:
 
-Wich refers to the study of the behavior of the covid-19 interest over tine and how the people interest in online courses, and even learning attitudes vary with respect of covid-19 interest.
+Wich refers to the study of the behavior of the covid-19 interest over time and how the people interest in online courses, and even learning attitudes vary with respect of covid-19 interest.
 
 * Study case 2:
 
 To study some of the epidemiological data of the covid-19, Colombia was chosen as country of study. To carry out this, a model of the cases was made to see the impact of obligated quarantine (decreed on 2020-03-24) and selective isolation (started at 2020-09-01). Also how this has affected the deparments of this country.
-At the end a shallow analysis is done to see the impact of some other variables with respect to the epidmilogical variables.
+In the end a shallow analysis is done to see the impact of some other variables with respect to the epidmilogical variables.
 
 
 ## What does this repo have?
