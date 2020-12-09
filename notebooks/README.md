@@ -4,7 +4,7 @@ This folder contains the notebooks where the data was analyzed and it is divide 
 
 The files have been coded using english but the comments and conclusion are in spanish.
 
-* Study case 1:
+* [Study case 1](https://github.com/gersonrpq/Covid-19-impact/blob/main/notebooks/study_case_1.ipynb):
 
 Titled: _Covid-19 presence impact on the interest in online education_
 
@@ -15,9 +15,9 @@ After bringing the data, a correlation study is made so that how strong the rela
 Furthermore, at the end to prove the significance of the results a hypotesis test is made.
 
 
-* Study case 2:
+* [Study case 2](https://github.com/gersonrpq/Covid-19-impact/blob/main/notebooks/study_case_2.ipynb):
 
-Title: _Biosecurity methods effect with respect to de pandemic situation,departments status, and study of other variables effect on the covid-19 situation in Colombia._
+Titled: _Biosecurity methods effect with respect to de pandemic situation,departments status, and study of other variables effect on the covid-19 situation in Colombia._
 
 Using the data from Google's COVID-19 Open-Data, a model was made to see how the covid-19 spread has been modified due to a regiment of isolation changes.
 
