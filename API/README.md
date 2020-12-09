@@ -73,3 +73,11 @@ json = {
   "query": "SELECT date, cumulative_confirmed FROM `bigquery-public-data.covid19_open_data.covid19_open_data` WHERE aggregation_level = 0 AND country_name = \"Venezuela\""
 }
 ```
+
+### _/docs_
+
+An environment where the API can be tested directly on the browser.
+
+#### **METHOD:**
+
+GET

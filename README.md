@@ -20,7 +20,7 @@ This repository is separated in three parts as following:
 * _/src_
 * _/API_
 
-every folder has its own README to get some sense of them, for now they will be described shortly.
+Every folder has its own README to get some sense of them, for now they will be described shortly.
 
 ### **_/notebooks_**
 
