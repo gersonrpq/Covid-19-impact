@@ -109,7 +109,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+prod_env/
+api_prod/
 *.sh
+.vscode/
 
 # Spyder project settings
 .spyderproject

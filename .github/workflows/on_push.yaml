@@ -20,7 +20,7 @@ jobs:
           AUTH_PROVIDER_X509_CERT_URL: ${{ secrets.AUTH_PROVIDER_X509_CERT_URL }}
           CLIENT_x509_CERT_URL: ${{ secrets.CLIENT_x509_CERT_URL }}
         run: |
-          pip install -r src/actions_requirements.txt
+          pip install -r src/requirements.txt
           python src/study_case_1_plot.py
           python src/study_case_2_plot.py
           
