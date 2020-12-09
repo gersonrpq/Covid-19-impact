@@ -1,4 +1,4 @@
-from model import CaseLogisticModel
+from evaluated_model import CaseLogisticModel
 from google.oauth2 import service_account
 from google.cloud import bigquery
 from matplotlib import pyplot as plt
