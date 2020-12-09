@@ -20,11 +20,11 @@ This repository is separated in three parts as following:
 * _/src_
 * _/API_
 
-That have its own README to get some sense of them, for now they will be described shortly.
+every folder has its own README to get some sense of them, for now they will be described shortly.
 
 ### **_/notebooks_**
 
-This folder has the jupyter notebook where the analysis of the study cases where made
+This folder has the jupyter notebooks where the analysis of the study cases where made.
 
 ### **_/src_**
 
