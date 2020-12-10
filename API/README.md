@@ -16,7 +16,7 @@ GET
 
 Redirects to https://platzi.com
 
-###  _/predict/last-day/_
+###  _/predict/last-day_
 
 Predicts approximately tha last day of the infection given a case and a country.
 
@@ -38,7 +38,7 @@ json = {
 }
 ```
 
-### _/predict/given-date/_
+### _/predict/given-date_
 
 Predicts approximately the amount of the case given a country and a date.
 
