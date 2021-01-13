@@ -2,6 +2,7 @@
 
 This folder is intended for the documentation of the API that uses the model developed in [_/notebooks/study_case_2.ipynb_](https://github.com/gersonrpq/Covid-19-impact/blob/main/notebooks/study_case_2.ipynb)
 
+
 ## Endpoints
 
 ### _/_
