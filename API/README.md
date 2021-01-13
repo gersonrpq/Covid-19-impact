@@ -2,8 +2,6 @@
 
 This folder is intended for the documentation of the API that uses the model developed in [_/notebooks/study_case_2.ipynb_](https://github.com/gersonrpq/Covid-19-impact/blob/main/notebooks/study_case_2.ipynb)
 
-url: https://platzi-test-1-c5yqtjlc6q-uc.a.run.app/
-
 ## Endpoints
 
 ### _/_
